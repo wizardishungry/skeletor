@@ -21,3 +21,7 @@ Should work on OS X, Linux and OpenBSD.
 - `skeletor-remote.sh user@machine`
   - It'll run ssh-copy-id, `git clone` your .skel repo, and symlink `.skel/*` into `~/`
 - Enjoy your new machine without setting up dotfiles or ssh auth by hand
+
+## Warnings
+- If you mess up you can lock yourself out of your account. I reccomend keeping password authentication on one privileged account in case you nuke your `authorized_keys`
+<img src="http://www.he-manreviewed.com/wp-content/uploads/2014/04/245-20-7-Years-Bad-Luck-Gif.gif">
