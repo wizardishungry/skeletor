@@ -19,7 +19,10 @@ Should work on OS X, Linux and OpenBSD.
 - Be able to login to `user@machine` and have ssh-copy-id installed
 - You'll need ssh agent forwarding setup - should work by using the -A option to `skeletor-remote.sh`
 - `skeletor-remote.sh user@machine`
-  - It'll run ssh-copy-id, `git clone` your .skel repo, and symlink `.skel/*` into `~/`
+  - `ssh-copy-id` copies over your ssh key for the initial setup
+  - `git clone` installs your .skel repo
+  - The old `.ssh` dir is saved to .ssh/.bak
+  - We symlink `.skel/*` into `~/`
 - Enjoy your new machine without setting up dotfiles or ssh auth by hand
 
 ## Warnings
