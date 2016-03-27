@@ -1,0 +1,8 @@
+.DS_Store
+*.sw?
+.ssh/id_*
+.ssh/master*
+.ssh/*.pem
+.subversion/auth/
+.chef
+*.swp

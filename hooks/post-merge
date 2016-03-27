@@ -1,0 +1,2 @@
+#!/bin/sh
+./bin/update-dotfiles `pwd` > /dev/null
