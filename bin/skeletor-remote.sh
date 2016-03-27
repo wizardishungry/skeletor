@@ -12,5 +12,5 @@ set -f
 ssh-copy-id $@
 ssh $@ ls $NAME 2> /dev/null && exit "Directory $NAME already exists on $@"
 ssh $@ git clone `git config --get remote.origin.url` $NAME
-ssh $@ mv .ssh .ssh.bak \&\& $NAME/bin/skeletor.sh
+ssh $@ mv .ssh .ssh.bak \&\& chmod -R g-rw .ssh/ \&\& $NAME/bin/skeletor.sh
 ssh $@ uname -a \&\& echo "Skeletor worked"
