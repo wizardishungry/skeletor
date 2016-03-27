@@ -12,7 +12,7 @@ Should work on OS X, Linux and OpenBSD.
 - Fork this repo
 - Do a checkout of your fork to `~/.skel`
 - Put additional dotfiles in there
-- ** `.gitignore` sensitive data! **
+- **Always `.gitignore` sensitive data!**
 - Run `~/.skel/bin/skeletor.sh`
 
 ## Remote Operation
