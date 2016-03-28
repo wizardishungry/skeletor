@@ -13,10 +13,7 @@ then
     echo "$SKEL is not a git repository; continuing anyway since you might be on a shitty platform"
 fi
 
-
-. ~/.skel/skeletor-ostype/$OSTYPE
-
-~/.skel/bin/update-dotfiles $SKEL > /dev/null
+~/.skel/bin/skeletor-dotfiles.sh $SKEL > /dev/null
 
 cd ~/.skel
 
