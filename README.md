@@ -25,6 +25,6 @@ Should work on OS X, Linux and OpenBSD.
   - We symlink `.skel/*` into `~/`
 - Enjoy your new machine without setting up dotfiles or ssh auth by hand
 
-## Warnings
+## Warning
 - If you mess up your `.ssh` directory, you can lock yourself out of your account. I reccomend keeping password authentication on one privileged account in case you nuke your `authorized_keys`
 ![I wanted an excuse to use this image](http://www.he-manreviewed.com/wp-content/uploads/2014/04/245-20-7-Years-Bad-Luck-Gif.gif)
