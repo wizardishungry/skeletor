@@ -27,4 +27,4 @@ Should work on OS X, Linux and OpenBSD.
 
 ## Warnings
 - If you mess up your `.ssh` directory, you can lock yourself out of your account. I reccomend keeping password authentication on one privileged account in case you nuke your `authorized_keys`
-<img alt="I wanted an excuse to use this image" src="http://www.he-manreviewed.com/wp-content/uploads/2014/04/245-20-7-Years-Bad-Luck-Gif.gif">
+![I wanted an excuse to use this image](http://www.he-manreviewed.com/wp-content/uploads/2014/04/245-20-7-Years-Bad-Luck-Gif.gif)
