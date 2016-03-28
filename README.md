@@ -1,9 +1,9 @@
 # Skeletor
 
 Commands for keeping your dotfiles in git.
-- `update-dotfiles` - maintain symlinks between a 
+- `update-dotfiles.sh` - maintain symlinks between a git repo and your home directory
 - `skeletor.sh` - entry point for update-dotfiles
-- `skeletor-remote.sh` - move 
+- `skeletor-remote.sh` - move to a new system
 
 Should work on OS X, Linux and OpenBSD.
 
@@ -17,6 +17,7 @@ Should work on OS X, Linux and OpenBSD.
 
 ## Remote Operation
 - Be able to login to `user@machine` and have ssh-copy-id installed
+- Your `~/.skel` needs an origin url
 - You'll need ssh agent forwarding setup - should work by using the -A option to `skeletor-remote.sh`
 - `skeletor-remote.sh user@machine`
   - `ssh-copy-id` copies over your ssh key for the initial setup
